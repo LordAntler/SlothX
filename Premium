@@ -1,4 +1,45 @@
 
-return {
-"369335282"
-}
+SlothXPremium = {
+  }
+SlothXStaff = {
+  1727761048,
+  3372209077
+  }
+SlothXOwner = {
+  369335282
+  }
+function sloths()
+	for _,Player in pairs(game:GetService('Players'):GetChildren()) do
+		if table.find(SlothXPremium, Player.UserId) then
+			if Player.Character then
+				if Player.Character.Parent.Name == 'Players' then
+					Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[🌟]' .. Player.DisplayName)
+				end
+			end
+		elseif
+			table.find(SlothXStaff, Player.UserId) then
+			if Player.Character then
+				if Player.Character.Parent.Name == 'Players' then
+					Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[🦍]' .. Player.DisplayName)
+				end
+			end
+     elseif
+			table.find(SlothXOwner, Player.UserId) then
+			if Player.Character then
+				if Player.Character.Parent.Name == 'Players' then
+					Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[🦥]' .. Player.DisplayName)
+				end
+			end
+		if
+			Player.Character then
+			if Player.Character.Parent.Name == 'Players' then
+				if not Player.Character.UpperTorso:FindFirstChild('OriginalSize') then
+					Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[🐵]' .. Player.DisplayName)
+				end
+			end
+		end
+	end
+	end
+	end
+local success,err = pcall(sloths)
+return SlothXPremium
