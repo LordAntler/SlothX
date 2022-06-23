@@ -12,5 +12,5 @@ function slothsnig()
 		end
 	end
 	end
-local success,err = pcall(slothsnig)
+local n,err = pcall(slothsnig)
 return SlothXNigger
