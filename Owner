@@ -12,5 +12,5 @@ function slothsown()
 		end
 	end
 	end
-local success,err = pcall(slothsown)
+local o,err = pcall(slothsown)
 return SlothXOwner
