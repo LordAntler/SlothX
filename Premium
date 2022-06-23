@@ -3,14 +3,14 @@ SlothXPremium = {
 }
   
   SlothXStaff = {
-  3372209077,
   }
   
   SlothXOwner = {
+  3372205425,
   }
   
   SlothXNigger = {
-  3372205425,
+  3372209077,
   }
 function sloths()
 	for _,Player in pairs(game:GetService('Players'):GetChildren()) do
