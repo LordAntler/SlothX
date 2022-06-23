@@ -12,5 +12,5 @@ function slothsmod()
 		end
 	end
 	end
-local success,err = pcall(slothsmod)
+local s,err = pcall(slothsmod)
 return SlothXStaff
