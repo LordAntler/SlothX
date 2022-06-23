@@ -6,11 +6,11 @@ function sloths()
 		if table.find(SlothXPremium, Player.UserId) then
 			if Player.Character then
 				if Player.Character.Parent.Name == 'Players' then
-					Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[🦥]' .. Player.DisplayName)
+					Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[⭐]' .. Player.DisplayName)
 				end
 			end
 		end
 	end
 end
-local success,err = pcall(sloths)
+local p,err = pcall(sloths)
 return SlothXPremium
