@@ -1,2 +1,4 @@
-return {
+owner = {
+3372205425,
 }
+return owner
