@@ -1,5 +1,3 @@
-theowner = {
+return {
 3372205425,
 }
-
-return theowner
